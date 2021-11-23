@@ -90,9 +90,9 @@ $ make install DESTDIR=/
 # 2 虚拟机存储文件
 我自己尝试过很多命令,试图直接实现windows下那样FTK Imager挂载后直接通过虚拟机访问磁盘来实现仿真,但是mac下好像挂载时没有办法挂载成物理磁盘,会被PD检测报错,VM就直接不报错了,直接输出帮助内容
 
-## eqmu 
+## qemu 
 于是我决定用挂载出的raw文件创建一个虚拟磁盘 
-这就用到了eqmu-img
+这就用到了qemu-img
 这是一个很强大的虚拟磁盘管理工具大家可以参考下面这篇文章来了解
 [https://blog.csdn.net/u012324798/article/details/109705017](https://blog.csdn.net/u012324798/article/details/109705017)
 
